@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dumb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        background-image: url("dumb.gif");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-container">
+      <a href="love.html"><button class="love-toggle">Love</button></a>
+      <a><button class="selected dumb-toggle" disabled>Dumb</button></a>
+      <div class="inner-container">
+        <h1>Are you dumb?</h1>
+        <button id="yes-button" onclick="realisation('dumb')">Yes</button>
+        <button id="no-button" onmouseover="changePosition()">No</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

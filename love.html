@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Love</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        background-image: url("pink-hearts.gif");
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-container">
+      <a><button class="selected love-toggle" disabled>Love</button></a>
+      <a href="dumb.html"><button class="dumb-toggle">Dumb</button></a>
+      <div class="inner-container">
+        <h1>Do you love me?</h1>
+        <button id="yes-button" onclick="realisation('love')">Yes</button>
+        <button id="no-button" onmouseover="changePosition()">No</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
